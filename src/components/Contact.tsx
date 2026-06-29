@@ -34,7 +34,7 @@ export const Contact: React.FC = () => {
 
     try {
       // 🚨 PASTE YOUR COPIED LINK RIGHT HERE 🚨
-      const API_URL = 'https://script.google.com/macros/s/AKfycbwl4YtpGsIQgaA7mSrVDQx2g8ZNEMAAH4C3bEGZEERSCSnrrlP4Q5tVXZvvmd__DlFzAw/exec';
+      const API_URL = 'https://script.google.com/macros/s/AKfycbw2ctTks9RhX4pZIvGl4rB-M-MncH4kre_yze0zCcJnYGyjfDKL_4taKPgoxi4iFnIPUw/exec';
 
       // Send the data AND the captcha token to your Google Apps Script
       const response = await fetch(API_URL, {
@@ -46,6 +46,8 @@ export const Contact: React.FC = () => {
       });
 
       const result = await response.json();
+      console.log('API Response:', result);
+      
 
       if (result.status === 'success') {
         console.log('Lead submitted successfully to Google Sheets!');
@@ -61,7 +63,7 @@ export const Contact: React.FC = () => {
       }
       
     } catch (error) {
-      console.error('Error submitting lead:', error);
+      console.log('Error submitting lead:', error);
       alert("Something went wrong. Please try again or contact us on WhatsApp.");
     } finally {
       setLoading(false);
