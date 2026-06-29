@@ -274,11 +274,11 @@ export const Contact: React.FC = () => {
             <div className="bg-white rounded-2xl border border-stone-200 p-6">
               <h3 className="text-lg font-bold text-dark-soft mb-4">Get In Touch</h3>
               <div className="space-y-4">
-                <a href="mailto:rushikesh@uniboxx.in" className="flex items-center gap-3 text-gray-text hover:text-accent transition-colors">
+                <a href="mailto:hello@uniboxx.in" className="flex items-center gap-3 text-gray-text hover:text-accent transition-colors">
                   <div className="w-10 h-10 rounded-xl bg-accent-50 flex items-center justify-center flex-shrink-0">
                     <Mail size={18} className="text-accent" />
                   </div>
-                  <span className="text-sm">rushikesh@uniboxx.in</span>
+                  <span className="text-sm">hello@uniboxx.in</span>
                 </a>
                 <a href="tel:+918655452847" className="flex items-center gap-3 text-gray-text hover:text-accent transition-colors">
                   <div className="w-10 h-10 rounded-xl bg-accent-50 flex items-center justify-center flex-shrink-0">

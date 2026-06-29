@@ -75,9 +75,9 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-3">
             <h4 className="font-bold text-white mb-4 text-sm uppercase tracking-wider">Contact</h4>
             <div className="space-y-3">
-              <a href="mailto:rushikesh@uniboxx.in" className="flex items-center gap-2 text-sm text-white/40 hover:text-white transition-colors">
+              <a href="mailto:hello@uniboxx.in" className="flex items-center gap-2 text-sm text-white/40 hover:text-white transition-colors">
                 <Mail size={14} className="flex-shrink-0" />
-                rushikesh@uniboxx.in
+                hello@uniboxx.in
               </a>
               <a href="tel:+918655452847" className="flex items-center gap-2 text-sm text-white/40 hover:text-white transition-colors">
                 <Phone size={14} className="flex-shrink-0" />
