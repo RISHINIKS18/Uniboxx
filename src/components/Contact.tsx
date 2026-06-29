@@ -34,7 +34,7 @@ export const Contact: React.FC = () => {
 
     try {
       // 🚨 PASTE YOUR COPIED LINK RIGHT HERE 🚨
-      const API_URL = 'https://script.google.com/macros/s/AKfycbxml5clHUfsHFCWAFKjPIZYYEY0YuTCR7mNQR06_MyD3JS6HIDvY4K9eMKlZ7PVm2XqqQ/exec';
+      const API_URL = 'https://script.google.com/macros/s/AKfycbwl4YtpGsIQgaA7mSrVDQx2g8ZNEMAAH4C3bEGZEERSCSnrrlP4Q5tVXZvvmd__DlFzAw/exec';
 
       // Send the data AND the captcha token to your Google Apps Script
       const response = await fetch(API_URL, {
